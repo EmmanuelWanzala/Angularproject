@@ -10,7 +10,7 @@
     display: table-cell; /* Make elements inside the container behave like table cells */
   }
   body {
-    position: absolute;
+    position: relative;
     width: 100vw;
     height: 1600vh;
     font-size: 16px;
