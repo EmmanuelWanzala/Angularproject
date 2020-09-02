@@ -4,7 +4,7 @@
   }
   .col-container {
     display: table; 
-    width: 100%; /* Set full-width to expand the whole page */
+    width: 100%;
   }
   
   .col {
