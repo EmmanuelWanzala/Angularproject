@@ -29,7 +29,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## A screenshot of the project
 
-<img src="src/assets/screenshot.png">
+<img src="src/assets/screenshot1.png">
 
 ## Live link to the project
 
