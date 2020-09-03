@@ -4,7 +4,6 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Users } from '../users';
 import { Repository } from '../repository';
-// import { getResponseURL } from '@angular/http/src/http_utils';
 
 
 @Component({
@@ -19,12 +18,6 @@ export class ProfileComponent implements OnInit {
   userRepos: any;
   userName: string;
 
-//   constructor() { }
-
-//   ngOnInit(): void {
-//   }
-
-// }
 constructor(public profileService: ProfileService) {
 }
 findProfile() {
@@ -45,7 +38,7 @@ ngOnInit() {
   this.repos = this.profileService.repo;
   this.profileService.getUserInfo();
   this.user = this.profileService.user;
-  // console.log(this.profileService.repo.name);
+  
 }
 
 }

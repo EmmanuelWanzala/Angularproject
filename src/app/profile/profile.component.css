@@ -8,7 +8,7 @@
   }
   
   .col {
-    display: table-cell; /* Make elements inside the container behave like table cells */
+    display: table-cell; 
   }
   body {
     position: relative;
